@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ege LED Matrix (64 x 32 pixels)</h2>
+    <p>Welcome to my led pixel matrix controller. This matrix is live on my desk at home. Anything you draw on here will update live on my end.</p>
+
+    <input type="color" style="width: 40px; height: 40px;" value="rgb(255, 255, 0)">
+    <button id="resetButton">Reset</button>
+
+</body>
+<script>
+    $(document).ready(() => {
+        document.addEventListener('context')
+    })
+
+    generateGrid(width_display, height_display);
+
+    $(".di")
+</script>
+<style>
+
+</style>
+</html>
